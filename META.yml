@@ -1,0 +1,19 @@
+--- 
+abstract: Distributed unique ID allocator
+author: Six Apart <cpan@sixapart.com>
+distribution_type: module
+generated_by: Module::Install version 0.65
+license: perl
+meta-spec: 
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: Data-YUID
+no_index: 
+  directory: 
+    - t
+    - inc
+    - t
+requires: 
+  Danga::Socket: 0
+  URI::Escape: 0
+version: 0.03
