@@ -1,19 +1,25 @@
---- 
-abstract: Distributed unique ID allocator
-author: Six Apart <cpan@sixapart.com>
+---
+abstract: "Distributed ID generator (\"Yet another Unique ID\")"
+author:
+  - 'Six Apart,'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: Module::Install version 0.65
+generated_by: 'Module::Install version 0.95'
 license: perl
-meta-spec: 
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
 name: Data-YUID
-no_index: 
-  directory: 
-    - t
+no_index:
+  directory:
     - inc
     - t
-requires: 
+requires:
   Danga::Socket: 0
   URI::Escape: 0
-version: 0.03
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.04

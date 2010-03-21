@@ -1,4 +1,4 @@
-$Id: README 1 2007-12-19 22:39:22Z miyagawa $
+$Id$
 
 This is Data::YUID, a distributed ID allocator that generates unique
 64-bit integers.

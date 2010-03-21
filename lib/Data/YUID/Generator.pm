@@ -1,4 +1,4 @@
-# $Id: Generator.pm 1 2007-12-19 22:39:22Z miyagawa $
+# $Id$
 
 package Data::YUID::Generator;
 use strict;

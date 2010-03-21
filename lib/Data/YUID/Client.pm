@@ -1,4 +1,4 @@
-# $Id: Client.pm 9 2007-12-19 22:40:09Z miyagawa $
+# $Id$
 
 package Data::YUID::Client;
 use strict;

@@ -1,4 +1,4 @@
-# $Id: 10-client.t 3 2007-12-19 22:39:35Z miyagawa $
+# $Id$
 
 use strict;
 use Data::YUID::Client;
