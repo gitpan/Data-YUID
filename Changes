@@ -2,6 +2,9 @@ $Id$
 
 Revision history for Data::YUID
 
+0.05 2010-03-21
+    - Same as 0.04
+
 0.04 2010-03-20
     - Upload under SIXAPART account
     - Makefile.PL tweaks
