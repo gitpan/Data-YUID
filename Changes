@@ -1,13 +1,15 @@
-$Id$
-
 Revision history for Data::YUID
 
-0.05 2010-03-21
-    - Same as 0.04
+0.06 2011-06-11
+    - Fixed sequence generation to reset timestamp every second, thus
+      fixing out of order sequences for 2+ servers (at the second
+      granularity).
+    - Added timeout configurations
+    - Added more tools, tests and documentation
+    - Fixed RT#68215 $^X in tests (ANDK)
 
-0.04 2010-03-20
-    - Upload under SIXAPART account
-    - Makefile.PL tweaks
+0.04
+    - Added 32bits Perl support
 
 0.03 2007-06-11
     - Tweaking 0.02 after some testing, revising the way the cached socket
